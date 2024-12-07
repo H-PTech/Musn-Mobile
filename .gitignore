@@ -1,10 +1,15 @@
-# Node modules
+1 .gitignore                                                                 X
+ # Node modules
 
-# React Native specific
-android/app/build/
-ios/Pods/
+ # React Native specific
+ android/app/build/
+ ios/Pods/
 
-# Temporary files
-*.log
-*.tmp
+ # Temporary files
+ *.log
+ *.tmp
 
+~
+~
+~
+~
