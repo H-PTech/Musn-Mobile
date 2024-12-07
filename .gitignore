@@ -1,15 +1,60 @@
-1 .gitignore                                                                 X
- # Node modules
+# Node modules
+Musn/node_modules/
 
- # React Native specific
- android/app/build/
- ios/Pods/
+# Build output
+Musn/android/build/
+Musn/ios/build/
+Musn/build/
 
- # Temporary files
- *.log
- *.tmp
+# React Native specific
+Musn/.expo/
+Musn/.expo-shared/
 
-~
-~
-~
-~
+# Dependency directories
+Musn/ios/Pods/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+*.tmp
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+
+# Environment variables
+Musn/.env
+
+# VSCode
+.vscode/
+
+# Xcode
+Musn/xcuserdata/
+Musn/DerivedData/
+
+# Android Studio
+Musn/.idea/
+Musn/*.iml
+
+# IntelliJ
+Musn/*.ipr
+Musn/*.iws
+
+# Android specific
+Musn/.gradle/
+Musn/local.properties
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# React Native debug files
+Musn/*.map
+
+# Other
+Musn/*.pid
+Musn/*.seed
+
