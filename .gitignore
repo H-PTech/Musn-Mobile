@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# React Native specific
+android/app/build/
+ios/Pods/
+
+# Temporary files
+*.log
+*.tmp
+
