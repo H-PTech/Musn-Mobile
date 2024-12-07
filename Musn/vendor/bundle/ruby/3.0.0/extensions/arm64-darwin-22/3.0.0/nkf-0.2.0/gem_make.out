@@ -1,0 +1,17 @@
+current directory: /Users/minjae/Desktop/Musn-Mobile/Musn/vendor/bundle/ruby/3.0.0/gems/nkf-0.2.0/ext/nkf
+/Users/minjae/.rbenv/versions/3.0.5/bin/ruby -I /Users/minjae/.rbenv/versions/3.0.5/lib/ruby/3.0.0 -r ./siteconf20241208-13147-3umci9.rb extconf.rb
+creating Makefile
+
+current directory: /Users/minjae/Desktop/Musn-Mobile/Musn/vendor/bundle/ruby/3.0.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= clean
+
+current directory: /Users/minjae/Desktop/Musn-Mobile/Musn/vendor/bundle/ruby/3.0.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\=
+compiling nkf.c
+linking shared-object nkf.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.3.0'
+
+current directory: /Users/minjae/Desktop/Musn-Mobile/Musn/vendor/bundle/ruby/3.0.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20241208-13147-j8sazv

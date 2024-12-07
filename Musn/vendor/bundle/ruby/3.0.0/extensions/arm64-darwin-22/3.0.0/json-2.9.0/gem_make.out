@@ -1,0 +1,22 @@
+current directory: /Users/minjae/Desktop/Musn-Mobile/Musn/vendor/bundle/ruby/3.0.0/gems/json-2.9.0/ext/json/ext/parser
+/Users/minjae/.rbenv/versions/3.0.5/bin/ruby -I /Users/minjae/.rbenv/versions/3.0.5/lib/ruby/3.0.0 -r ./siteconf20241208-13147-qugas0.rb extconf.rb
+checking for rb_enc_interned_str() in ruby.h... yes
+checking for rb_hash_new_capa() in ruby.h... no
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for rb_category_warn() in ruby.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/minjae/Desktop/Musn-Mobile/Musn/vendor/bundle/ruby/3.0.0/gems/json-2.9.0/ext/json/ext/parser
+make DESTDIR\= clean
+
+current directory: /Users/minjae/Desktop/Musn-Mobile/Musn/vendor/bundle/ruby/3.0.0/gems/json-2.9.0/ext/json/ext/parser
+make DESTDIR\=
+compiling parser.c
+linking shared-object json/ext/parser.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.3.0'
+
+current directory: /Users/minjae/Desktop/Musn-Mobile/Musn/vendor/bundle/ruby/3.0.0/gems/json-2.9.0/ext/json/ext/parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 parser.bundle ./.gem.20241208-13147-7cj1s4/json/ext
