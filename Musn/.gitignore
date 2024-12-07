@@ -1,0 +1,60 @@
+# Node modules
+node_modules/
+
+# Build output
+android/build/
+ios/build/
+build/
+
+# React Native specific
+.expo/
+.expo-shared/
+
+# Dependency directories
+ios/Pods/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+*.tmp
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+
+# Environment variables
+.env
+
+# VSCode
+.vscode/
+
+# Xcode
+xcuserdata/
+DerivedData/
+
+# Android Studio
+.idea/
+*.iml
+
+# IntelliJ
+*.ipr
+*.iws
+
+# Android specific
+.gradle/
+local.properties
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# React Native debug files
+*.map
+
+# Other
+*.pid
+*.seed
+
